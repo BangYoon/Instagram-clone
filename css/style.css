@@ -1,0 +1,193 @@
+body{
+    background:#f8f8f8;
+}
+
+.sprite_insta_icon {
+    display: inline-block; /* icon과 로고가 가로로 배치되도록*/
+	background: url('../imgs/background01.png') no-repeat -53px -235px;
+	width: 22px;
+	height: 22px;
+}
+
+
+.sprite_write_logo {
+    display: inline-block;
+    background: url('../imgs/background01.png') no-repeat -94px -72px;
+    width: 103px;
+    height: 29px;
+}
+
+.sprite_compass_icon {
+    display: inline-block;
+    background: url('../imgs/background01.png') no-repeat -130px -286px;
+    width: 23px;
+    height: 23px;
+}
+
+.sprite_user_icon_outline {
+    display: inline-block;
+    background: url('../imgs/background01.png') no-repeat -272px -182px;
+    width: 22px;
+    height: 24px;
+}
+
+.sprite_heart_icon_outline {
+    display: inline-block;
+    background: url('../imgs/background01.png') no-repeat -52px -261px;
+    width: 24px;
+    height: 22px;
+}
+
+.sprite_small_search_icon {
+    display: inline-block;
+    background: url('../imgs/background01.png') no-repeat -337px -246px;
+    width: 10px;
+    height: 10px;
+}
+
+.sprite_more_icon {
+    display: inline-block;
+    background: url('../imgs/background01.png') no-repeat -301px -218px;
+    width: 15px;
+    height: 3px;
+}
+
+.sprite_bubble_icon {
+    display: inline-block;
+    background: url('../imgs/background01.png') no-repeat -239px -202px;
+    width: 24px;
+    height: 24px;
+}
+
+.sprite_share_icon {
+    display: inline-block;
+    background: url('../imgs/background01.png') no-repeat -324px -52px;
+    width: 21px;
+    height: 24px;
+}
+
+.sprite_bookmark_outline {
+    display: inline-block;
+    background: url('../imgs/background01.png') no-repeat -237px -286px;
+    width: 19px;
+    height: 24px;
+}
+
+.sprite_small_heart_icon_outline {
+    display: inline-block;
+    background: url('../imgs/background01.png') no-repeat -323px -274px;
+    width: 12px;
+    height: 11px;
+}
+
+.sprite_camera_icon {
+    display: inline-block;
+    background: url('../imgs/background01.png') no-repeat -271px -104px;
+    width: 24px;
+    height: 22px;
+}
+
+.sprite_insta_big_logo {
+    display: inline-block;
+    background: url('../imgs/background02.png') no-repeat -98px -150px;
+    width: 175px;
+    height: 51px;
+}
+
+.sprite_plus_icon {
+    display: inline-block;
+    background: url('../imgs/background01.png') no-repeat -187px -202px;
+    width: 23px;
+    height: 23px;
+}
+
+#header{
+    width: 100%;
+    position: absolute; /*x,y축 하나씩 명시해줘야함*/
+    left:0;
+    top:0;
+    z-index:999; /*가장 위로 올라가도록*/
+    background:white;
+    border-bottom:1px solid rgba(0,0,0,0.1);
+}
+
+#header .inner{
+    width: 975px;
+    height: 77px;
+    margin: 0 auto;
+    display: flex; /*inner의 컨텐츠들을 가로 배치*/
+    justify-content: space-between; /*적당한 center*/
+    align-items: center;
+}
+
+#header .inner .logo > a{
+    color:transparent;
+}
+
+#header .inner .logo .sprite_insta_icon{
+    position: relative;
+    margin-right:30px;
+}
+
+#header .inner .logo .sprite_insta_icon:after{ /*가상선택자*/
+    content:'';
+    width:1px;
+    height:28px;
+    background:#000;
+    position: absolute;
+    right:-20px;
+    top:0;
+
+}
+
+#header .inner .logo div{
+    vertical-align:middle;
+}
+
+#header .search_box{
+    position: relative;
+}
+
+#search-field{
+    width: 185px;
+    height: 28px;
+    background: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    padding: 3px 30px;
+    color: #999;
+    font-weight: 400;
+    text-weight: left;
+    font-size: 14px;
+    outline: none; /*원래는 포커스했을 때 파란색 뜸*/
+}
+
+#search-field::placeholder {
+    font-size:0;
+}
+#search-field:focus::placeholder {
+    font-size:14px;
+    color:#999;
+}
+#header .search_box .fake_field{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-56%, -44%);
+    pointer-events: none;
+}
+#search-field:focus ~ .fake_field > span:nth-child(1){
+    transform:translate(-106px);
+}
+#search-field:focus ~ .fake_field > span:nth-child(2){
+    display: none;
+}
+#header .right_icons {
+    width:132px;
+    display: flex;
+    justify_content: space-between;
+}
+
+#header .right_icons > div {
+
+}
