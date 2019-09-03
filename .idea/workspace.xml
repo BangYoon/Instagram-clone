@@ -2,35 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9626188-904b-41f7-9850-96b29e4af3c7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/reference/instclonefront/contents.html" beforeDir="false" afterPath="$PROJECT_DIR$/reference/instclonefront/contents.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reference/instclonefront/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/reference/instclonefront/css/common.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reference/instclonefront/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/reference/instclonefront/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reference/instclonefront/css/new_post.css" beforeDir="false" afterPath="$PROJECT_DIR$/reference/instclonefront/css/new_post.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reference/instclonefront/css/profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/reference/instclonefront/css/profile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reference/instclonefront/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/reference/instclonefront/css/reset.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reference/instclonefront/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/reference/instclonefront/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reference/instclonefront/follow.html" beforeDir="false" afterPath="$PROJECT_DIR$/reference/instclonefront/follow.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reference/instclonefront/imgs/background01.png" beforeDir="false" afterPath="$PROJECT_DIR$/reference/instclonefront/imgs/background01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reference/instclonefront/imgs/background02.png" beforeDir="false" afterPath="$PROJECT_DIR$/reference/instclonefront/imgs/background02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reference/instclonefront/imgs/img_section/img01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/reference/instclonefront/imgs/img_section/img01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reference/instclonefront/imgs/img_section/img02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/reference/instclonefront/imgs/img_section/img02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reference/instclonefront/imgs/img_section/img03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/reference/instclonefront/imgs/img_section/img03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reference/instclonefront/imgs/img_section/img04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/reference/instclonefront/imgs/img_section/img04.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reference/instclonefront/imgs/img_section/img05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/reference/instclonefront/imgs/img_section/img05.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reference/instclonefront/imgs/img_section/img06.png" beforeDir="false" afterPath="$PROJECT_DIR$/reference/instclonefront/imgs/img_section/img06.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reference/instclonefront/imgs/img_section/img07.png" beforeDir="false" afterPath="$PROJECT_DIR$/reference/instclonefront/imgs/img_section/img07.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reference/instclonefront/imgs/instagram.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/reference/instclonefront/imgs/instagram.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reference/instclonefront/imgs/instagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/reference/instclonefront/imgs/instagram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reference/instclonefront/imgs/thumb.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/reference/instclonefront/imgs/thumb.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reference/instclonefront/imgs/thumb02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/reference/instclonefront/imgs/thumb02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reference/instclonefront/imgs/thumb03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/reference/instclonefront/imgs/thumb03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reference/instclonefront/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/reference/instclonefront/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reference/instclonefront/js/insta.js" beforeDir="false" afterPath="$PROJECT_DIR$/reference/instclonefront/js/insta.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reference/instclonefront/js/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/reference/instclonefront/js/profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reference/instclonefront/js/rander_page.js" beforeDir="false" afterPath="$PROJECT_DIR$/reference/instclonefront/js/rander_page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reference/instclonefront/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/reference/instclonefront/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reference/instclonefront/new_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/reference/instclonefront/new_post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reference/instclonefront/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/reference/instclonefront/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,12 +21,13 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/reference/instclonefront" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1QJHtzGsTBqwjcXVdWhLab4QBrS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -87,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567481997317</updated>
-      <workItem from="1567482008494" duration="5519000" />
+      <workItem from="1567482008494" duration="7478000" />
     </task>
     <servers />
   </component>

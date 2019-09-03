@@ -136,12 +136,16 @@ body{
     background:#000;
     position: absolute;
     right:-20px;
-    top:0;
+    top:-4px;
 
 }
 
 #header .inner .logo div{
     vertical-align:middle;
+}
+
+#header .inner .logo div:nth-child(2){
+    transform:translateY(2px);
 }
 
 #header .search_box{
@@ -185,7 +189,7 @@ body{
 #header .right_icons {
     width:132px;
     display: flex;
-    justify_content: space-between;
+    justify-content: space-between; /*적당한 center*/
 }
 
 #header .right_icons > div {
