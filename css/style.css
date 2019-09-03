@@ -189,7 +189,7 @@ body{
 #header .right_icons {
     width:132px;
     display: flex;
-    justify-content: space-between; /*적당한 center*/
+    justify-content: space-between;
 }
 
 #header .right_icons > div {
