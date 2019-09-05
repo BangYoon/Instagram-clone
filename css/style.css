@@ -220,3 +220,19 @@ body{
     margin-bottom: 60px;
     background: white;
 }
+
+.contents .top{
+
+}
+
+.contents .top .profile_img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.contents .top .profile_img img{
+    width:100%;
+}
