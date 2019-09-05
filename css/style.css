@@ -2,6 +2,16 @@ body{
     background:#f8f8f8;
 }
 
+.main_text{
+    font-size:14px;
+    font-weight: bold;
+}
+
+.sub_text{
+    font-size: 10.5px;
+    padding:.5px;
+}
+
 .sprite_insta_icon {
     display: inline-block; /* icon과 로고가 가로로 배치되도록*/
 	background: url('../imgs/background01.png') no-repeat -53px -235px;
@@ -222,7 +232,10 @@ body{
 }
 
 .contents .top{
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
 }
 
 .contents .top .profile_img{
@@ -235,4 +248,8 @@ body{
 
 .contents .top .profile_img img{
     width:100%;
+}
+
+.contents .top .user_container{
+    display: flex;
 }
