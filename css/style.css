@@ -195,3 +195,28 @@ body{
 #header .right_icons > div {
 
 }
+
+#main_container{
+    padding-top: 130px;
+    display: flex;
+    justify-content: center;
+}
+
+#main_container .inner{
+    width: 935px;
+/*    height: 500px;
+    background: orange;*/
+}
+
+.contents_box{
+
+}
+
+.contents{
+    width: 614px;
+    height: 500px;
+    border: 1px solid rgba(0,0,0,0.09);
+    border-radius: 3px;
+    margin-bottom: 60px;
+    background: white;
+}
