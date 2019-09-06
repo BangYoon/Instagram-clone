@@ -261,3 +261,41 @@ body{
 .contents .img_section img{
     width: 100%;
 }
+
+.contents .bottom_icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.contents .bottom_icons .left_icons{
+    display: flex;
+}
+
+.contents .bottom_icons .left_icons > div{
+    margin-right: 10px;
+}
+
+.contents .likes{
+    padding: 5px 20px;
+    color: #262626;
+}
+
+.contents .comment_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+}
+
+.contents .comment_container .comment {
+    display: flex;
+    font-size: 13px;
+}
+
+.contents .comment_container .comment .nick_name{
+    margin-right: 10px;
+    font-size: 14px;
+    color: #262626 ;
+}
