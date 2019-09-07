@@ -373,7 +373,60 @@ body{
     color:#262626;
 }
 
-.side_box .detail   .ko_name{
+.side_box .detail .id{
+    margin-bottom: 5px;
+}
+
+.side_box .detail .ko_name{
     font-size: 12px;
     color: #999;
+}
+
+.side_box > article{
+    border: 1px solid rgba(0,0,0,0.09);
+    margin-bottom: 20px;
+    border-radius: 3px;
+    font-size: 14px;
+    width:291px;
+    color:#262626;
+    font-weight: bold;
+    background:white;
+}
+
+.side_box > article > header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    color:#999;
+}
+
+.side_box > article > header .more{
+    font-size: 12px;
+    color:#262626;
+    cursor:pointer;
+}
+
+.thumb_user{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.thumb_user .profile_thumb{
+    width: 34px;
+    height:34px;
+}
+
+.thumb_user .time{
+    font-size: 10px;
+    letter-spacing: 0.2px;
+    color:#999;
+}
+
+.side_box .scroll_inner{
+    height: 182px;
+    overflow-x:hidden;
+    overflow-y: auto;
+    /*overflow:hidden auto;*/
 }
