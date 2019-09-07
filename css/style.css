@@ -510,3 +510,9 @@ body{
         display: none;
     }
 }
+
+@media screen and (min-width:950px){
+    .hidden_menu{
+        display:none;
+    }
+}
