@@ -7,6 +7,7 @@
         .box{
             width:200px;
             height:200px;
+            background : #3897f0;
         }
     </style>
 </head>
@@ -50,8 +51,13 @@
             console.log(i+1+'등이야!');
         }
 
-        
+        //선택자 : 동적인 제어를 하기위해 dom object를 불러옴
+        //document.getElementById()
+        //document.getElementsByClassName('box');
+        const box = document.querySelector('.box'); //id면 # class면 . 쓰면됨
+        //const box = document.querySelectorAll('.box'); //여러개 받아올때!
 
+        console.log(box);
 
     </script>
 </body>
