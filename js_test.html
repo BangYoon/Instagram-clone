@@ -4,10 +4,22 @@
     <meta charset="UTF-8">
     <title>javascript_test</title>
     <style>
+        /*
+            우선순위 score
+            id = 100점
+            class = 10점
+            tag = 1점
+        */
+
+
         .box{
             width:200px;
             height:200px;
-            background : #3897f0;
+            background : red;
+        }
+
+        .box .on{
+            background-color: green;
         }
     </style>
 </head>
@@ -61,7 +73,8 @@
 
         //click-event
         box.addEventListener('click', function(){
-           console.log('눌렀다!')
+            console.log('눌렀다!');
+            box.style.background = "blue";
         });
 
 
