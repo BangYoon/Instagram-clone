@@ -18,7 +18,7 @@
             background : red;
         }
 
-        .box .on{
+        .on{
             background-color: green;
         }
     </style>
@@ -74,7 +74,11 @@
         //click-event
         box.addEventListener('click', function(){
             console.log('눌렀다!');
-            box.style.background = "blue";
+            //box.style.background = "blue";
+            //box.classList.remove('on');
+            //box.classList.remove('on');
+            box.classList.toggle('on');
+
         });
 
 
