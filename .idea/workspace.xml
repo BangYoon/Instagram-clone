@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9626188-904b-41f7-9850-96b29e4af3c7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_test.html" beforeDir="false" afterPath="$PROJECT_DIR$/js_test.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +32,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -62,8 +61,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567481997317</updated>
-      <workItem from="1567482008494" duration="7478000" />
+      <workItem from="1567482008494" duration="8403000" />
+      <workItem from="1567650856773" duration="30000" />
+      <workItem from="1567686913755" duration="5172000" />
+      <workItem from="1567693946178" duration="601000" />
+      <workItem from="1567759616121" duration="3933000" />
+      <workItem from="1567782951066" duration="800000" />
+      <workItem from="1567825531772" duration="11535000" />
+      <workItem from="1568293708457" duration="3613000" />
+      <workItem from="1568379689224" duration="1599000" />
+      <workItem from="1568554869941" duration="1867000" />
+      <workItem from="1568628359671" duration="600000" />
+      <workItem from="1568723210994" duration="1196000" />
+      <workItem from="1568733491549" duration="2000" />
+      <workItem from="1569161842916" duration="381000" />
     </task>
+    <task id="LOCAL-00001" summary="modify header design details">
+      <created>1567491064682</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567491064682</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -74,10 +94,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="modify header design details" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify header design details" />
   </component>
 </project>
