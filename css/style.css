@@ -302,7 +302,7 @@ body{
     cursor: pointer;
 }
 
-.on .sprite_heart_icon_outline{
+.sprite_heart_icon_outline.on{
     background: url('../imgs/background01.png') no-repeat -26px -261px;
 }
 

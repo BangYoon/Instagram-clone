@@ -3,11 +3,20 @@ const heart = document.querySelector('.heart_btn');
 const header = document.querySelector('#header');
 const sidebox = document.querySelector('.side_box');
 const variableWidth = document.querySelectorAll('.contents_box .contents');
+const delegation = document.querySelector('.contents_box');
 
-heart.addEventListener('click', function(){
-    console.log('hit');
-    heart.classList.toggle('on');
-});
+function scrollFunc(){
+    console.log(pageYOffset);
+
+    if(pageYOffset >= 10){
+        header.classList.add('on');
+        sidebox.classList.add('on');
+    }else{
+        header.classList.remove('on');
+        sidebox.classList.remove('on');
+        sidebox.removeAttribute('style');
+    }
+}
 
 function resizeFunc(){
     console.log('resize!!');
@@ -29,17 +38,31 @@ function resizeFunc(){
     }
 }
 
-function scrollFunc(){
-    console.log(pageYOffset);
+function delegationFunc(e){
+    let ee = e.target;
+    console.log(ee);
 
-    if(pageYOffset >= 10){
-        header.classList.add('on');
-        sidebox.classList.add('on');
-    }else{
-        header.classList.remove('on');
-        sidebox.classList.remove('on');
-        sidebox.removeAttribute('style');
+    while(!ee.getAttribute('class')){
+        ee = ee.parentNode;
+        if(ee.nodeName === 'BODY'){
+            ee = null;
+            return;
+        }
     }
+
+    if(ee.matches('[class="sprite_heart_icon_outline"]')){
+        console.log('하트!');
+    }else if(ee.matches('[class="sprite_bookmark_outline"]')){
+        console.log('북마크!');
+    }else if(ee.matches('[class="sprite_share_icon"]')){
+        console.log('공유!');
+    }else if(ee.matches('[class="sprite_bubble_icon"]')){
+        console.log('댓글!');
+    }
+
+    ee.classList.toggle('on');
 }
+
 window.addEventListener('scroll', scrollFunc);
 window.addEventListener('resize', resizeFunc);
+window.addEventListener('click', delegationFunc);
