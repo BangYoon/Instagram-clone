@@ -121,6 +121,14 @@ body{
     border-bottom:1px solid rgba(0,0,0,0.1);
 }
 
+#header.on{
+    position: fixed;
+}
+
+#header.on .inner{
+    height:52px;
+}
+
 #header .inner{
     width: 975px;
     height: 77px;
@@ -128,6 +136,7 @@ body{
     display: flex; /*inner의 컨텐츠들을 가로 배치*/
     justify-content: space-between; /*적당한 center*/
     align-items: center;
+    transition:all 1s;
 }
 
 #header .inner .logo > a{
@@ -156,6 +165,16 @@ body{
 
 #header .inner .logo div:nth-child(2){
     transform:translateY(2px);
+}
+
+#header.on .inner .logo div:nth-child(2){
+    opacity: 0;
+    transition:all .5s;
+}
+
+#header.on .inner .logo .sprite_insta_icon:after{
+    opacity: 0;
+    transition:all .5s;
 }
 
 #header .search_box{
@@ -355,6 +374,11 @@ body{
     position: absolute;
     right: 0;
     top: 0;
+}
+
+.side_box.on {
+    position: fixed;
+    top: 80px;
 }
 
 .side_box .profile_thumb {
